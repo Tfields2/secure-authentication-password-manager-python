@@ -1,4 +1,4 @@
-# Secure Password Manager (Python)
+# Secure Authentication & Password Manager (Python)
 ## Overview
 This project began as a **basic password manager** and was incrementally hardened into a **secure authenticated system**. The goal was to understand how **real world password managers** implement cryptographic protection, account security controls, and auditability. Through **iterative developemnent**, I introduced controls commonly used in production systems, including password hashing, account lockouts, audit logging, administrative actions, and safe persistence. This project emphasizes **hands on Python security engineering**, not theoretical knowledge.
 
