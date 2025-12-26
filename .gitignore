@@ -1,3 +1,45 @@
+# =========================
+# Python Artifacts
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Virtual Environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Sensitive Runtime Data
+# =========================
+# Password database (contains salts + hashes)
+data/*.json
+
+# =========================
+# Audit Logs
+# =========================
+# Authentication events (usernames, timing, outcomes)
+logs/*.log
+
+# =========================
+# Environment Variables
+# =========================
+.env
+
+# =========================
+# OS / Editor Noise
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
